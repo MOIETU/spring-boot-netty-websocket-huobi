@@ -1,10 +1,9 @@
 package com.oujiong.exchange.client.huobi;
 
 /**
- * @Description: 订阅主题, 火币网
- *   一般需要订阅以下五种数据类型
- *
  * @author xub
+ * @Description: 订阅主题, 火币网
+ * 一般需要订阅以下五种数据类型
  * @date 2019/7/29 下午8:53
  */
 public final class Topic {
@@ -32,5 +31,5 @@ public final class Topic {
     /**
      * K线交易周期
      */
-    public static String[] PERIOD = {"1min" /*, "5min", "15min", "30min", "60min", "1day", "1mon", "1week", "1year"*/ };
+    public static String[] PERIOD = {"1min" /*, "5min", "15min", "30min", "60min", "1day", "1mon", "1week", "1year"*/};
 }

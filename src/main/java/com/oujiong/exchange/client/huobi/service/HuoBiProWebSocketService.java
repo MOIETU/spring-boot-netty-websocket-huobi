@@ -3,9 +3,8 @@ package com.oujiong.exchange.client.huobi.service;
 import java.util.List;
 
 /**
- * @Description: 其它服务拉取交易对消息 和调其它服务保存消息 相关接口
- *
  * @author xub
+ * @Description: 其它服务拉取交易对消息 和调其它服务保存消息 相关接口
  * @date 2019/7/29 下午8:55
  */
 public interface HuoBiProWebSocketService {

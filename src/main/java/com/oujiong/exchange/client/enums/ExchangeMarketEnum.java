@@ -1,9 +1,8 @@
 package com.oujiong.exchange.client.enums;
 
 /**
- * @Description: 获取各大交易所的最新交易对消息
- *
  * @author xub
+ * @Description: 获取各大交易所的最新交易对消息
  * @date 2019/7/30 下午4:37
  */
 public enum ExchangeMarketEnum {
@@ -74,7 +73,7 @@ public enum ExchangeMarketEnum {
     CIOIN58(257),
 
     /**
-     *https://pro.coinbase.com/
+     * https://pro.coinbase.com/
      */
     COINBASE(260),
 

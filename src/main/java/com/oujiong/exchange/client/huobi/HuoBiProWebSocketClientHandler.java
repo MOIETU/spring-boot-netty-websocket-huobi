@@ -11,10 +11,9 @@ import lombok.extern.slf4j.Slf4j;
 import java.nio.charset.StandardCharsets;
 
 /**
+ * @author xub
  * @Description: 火币网WebSocket 消息处理类
  * 自定义入站的handler 这个也是核心类
- *
- * @author xub
  * @date 2019/7/30 下午7:07
  */
 @Slf4j
@@ -76,6 +75,7 @@ public class HuoBiProWebSocketClientHandler extends SimpleChannelInboundHandler<
         log.warn("websocket client disconnected.");
         client.start();
     }
+
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
         cause.printStackTrace();

@@ -19,7 +19,7 @@ import java.util.List;
  */
 @Slf4j
 @Component
-public class HuobiProMainServiceImpl   implements HuobiProMainService {
+public class HuobiProMainServiceImpl implements HuobiProMainService {
 
     @Autowired
     private HuoBiProWebSocketService huoBiProWebSocketService;
@@ -78,7 +78,7 @@ public class HuobiProMainServiceImpl   implements HuobiProMainService {
             }
         }
         channelCache = channelList;
-       //交易所删除交易对 删除的这边就不做处理了
+        //交易所删除交易对 删除的这边就不做处理了
     }
 
     /**

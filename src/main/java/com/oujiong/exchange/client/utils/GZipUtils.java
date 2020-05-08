@@ -4,9 +4,8 @@ import java.io.*;
 import java.util.zip.GZIPInputStream;
 
 /**
- * @Description: GZip 压缩辅助类（火币网数据需要解压）
- *
  * @author xub
+ * @Description: GZip 压缩辅助类（火币网数据需要解压）
  * @date 2019/7/30 下午7:07
  */
 public class GZipUtils {

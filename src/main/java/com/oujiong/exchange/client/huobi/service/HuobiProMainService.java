@@ -2,9 +2,8 @@ package com.oujiong.exchange.client.huobi.service;
 
 
 /**
- * @Description: 订阅接口
- *
  * @author xub
+ * @Description: 订阅接口
  * @date 2019/7/28 下午7:06
  */
 public interface HuobiProMainService {
